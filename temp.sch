@@ -1,0 +1,1107 @@
+EESchema Schematic File Version 2  date Thu 21 Jun 2012 03:44:06 PM PDT
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "21 jun 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 8600 4500
+Wire Wire Line
+	8600 4300 8600 4500
+Connection ~ 8200 4500
+Wire Wire Line
+	8200 4300 8200 4500
+Connection ~ 7800 4500
+Wire Wire Line
+	7800 4300 7800 4500
+Connection ~ 7400 4500
+Wire Wire Line
+	7400 4300 7400 4500
+Connection ~ 7000 4500
+Wire Wire Line
+	7000 4300 7000 4500
+Connection ~ 6600 4500
+Wire Wire Line
+	6600 4500 6600 4300
+Connection ~ 6200 4500
+Wire Wire Line
+	6200 4300 6200 4500
+Connection ~ 5800 4500
+Wire Wire Line
+	5800 4300 5800 4500
+Connection ~ 5400 4500
+Wire Wire Line
+	5400 4300 5400 4500
+Connection ~ 5000 4500
+Wire Wire Line
+	5000 4300 5000 4500
+Connection ~ 4400 4500
+Wire Wire Line
+	4400 4500 4400 4300
+Wire Wire Line
+	9000 4500 4200 4500
+Wire Wire Line
+	9000 4300 9000 4500
+Wire Wire Line
+	4200 4700 4200 4300
+Connection ~ 4200 4500
+Wire Wire Line
+	4600 4300 4600 4500
+Connection ~ 4600 4500
+Wire Wire Line
+	4800 4300 4800 4500
+Connection ~ 4800 4500
+Wire Wire Line
+	5200 4300 5200 4500
+Connection ~ 5200 4500
+Wire Wire Line
+	5600 4300 5600 4500
+Connection ~ 5600 4500
+Wire Wire Line
+	6000 4300 6000 4500
+Connection ~ 6000 4500
+Wire Wire Line
+	6400 4300 6400 4500
+Connection ~ 6400 4500
+Wire Wire Line
+	6800 4300 6800 4500
+Connection ~ 6800 4500
+Wire Wire Line
+	7200 4300 7200 4500
+Connection ~ 7200 4500
+Wire Wire Line
+	7600 4300 7600 4500
+Connection ~ 7600 4500
+Wire Wire Line
+	8000 4300 8000 4500
+Connection ~ 8000 4500
+Wire Wire Line
+	8400 4300 8400 4500
+Connection ~ 8400 4500
+Wire Wire Line
+	8800 4300 8800 4500
+Connection ~ 8800 4500
+Connection ~ 8800 2500
+Wire Wire Line
+	8800 2700 8800 2500
+Connection ~ 8400 2500
+Wire Wire Line
+	8400 2700 8400 2500
+Connection ~ 8000 2500
+Wire Wire Line
+	8000 2700 8000 2500
+Connection ~ 7600 2500
+Wire Wire Line
+	7600 2700 7600 2500
+Connection ~ 7200 2500
+Wire Wire Line
+	7200 2700 7200 2500
+Connection ~ 6800 2500
+Wire Wire Line
+	6800 2700 6800 2500
+Connection ~ 6400 2500
+Wire Wire Line
+	6400 2700 6400 2500
+Connection ~ 6000 2500
+Wire Wire Line
+	6000 2700 6000 2500
+Connection ~ 5600 2500
+Wire Wire Line
+	5600 2700 5600 2500
+Connection ~ 5200 2500
+Wire Wire Line
+	5200 2700 5200 2500
+Connection ~ 4800 2500
+Wire Wire Line
+	4800 2700 4800 2500
+Connection ~ 4600 2500
+Wire Wire Line
+	4600 2700 4600 2500
+Connection ~ 4200 2500
+Wire Wire Line
+	4200 2300 4200 2700
+Wire Wire Line
+	9000 2700 9000 2500
+Wire Wire Line
+	9000 2500 4200 2500
+Wire Wire Line
+	4400 2500 4400 2700
+Connection ~ 4400 2500
+Wire Wire Line
+	5000 2700 5000 2500
+Connection ~ 5000 2500
+Wire Wire Line
+	5400 2700 5400 2500
+Connection ~ 5400 2500
+Wire Wire Line
+	5800 2700 5800 2500
+Connection ~ 5800 2500
+Wire Wire Line
+	6200 2700 6200 2500
+Connection ~ 6200 2500
+Wire Wire Line
+	6600 2500 6600 2700
+Connection ~ 6600 2500
+Wire Wire Line
+	7000 2700 7000 2500
+Connection ~ 7000 2500
+Wire Wire Line
+	7400 2700 7400 2500
+Connection ~ 7400 2500
+Wire Wire Line
+	7800 2700 7800 2500
+Connection ~ 7800 2500
+Wire Wire Line
+	8200 2700 8200 2500
+Connection ~ 8200 2500
+Wire Wire Line
+	8600 2700 8600 2500
+Connection ~ 8600 2500
+$Comp
+L LED D?
+U 1 1 4FE3A23F
+P 7400 4100
+F 0 "D?" H 7400 4200 50  0000 C CNN
+F 1 "LED" H 7400 4000 50  0000 C CNN
+	1    7400 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A23E
+P 7400 3700
+F 0 "D?" H 7400 3800 50  0000 C CNN
+F 1 "LED" H 7400 3600 50  0000 C CNN
+	1    7400 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A23D
+P 7400 3300
+F 0 "D?" H 7400 3400 50  0000 C CNN
+F 1 "LED" H 7400 3200 50  0000 C CNN
+	1    7400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A23C
+P 7400 2900
+F 0 "D?" H 7400 3000 50  0000 C CNN
+F 1 "LED" H 7400 2800 50  0000 C CNN
+	1    7400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A23B
+P 8400 2900
+F 0 "D?" H 8400 3000 50  0000 C CNN
+F 1 "LED" H 8400 2800 50  0000 C CNN
+	1    8400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A23A
+P 8400 3300
+F 0 "D?" H 8400 3400 50  0000 C CNN
+F 1 "LED" H 8400 3200 50  0000 C CNN
+	1    8400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A239
+P 8400 3700
+F 0 "D?" H 8400 3800 50  0000 C CNN
+F 1 "LED" H 8400 3600 50  0000 C CNN
+	1    8400 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A238
+P 8400 4100
+F 0 "D?" H 8400 4200 50  0000 C CNN
+F 1 "LED" H 8400 4000 50  0000 C CNN
+	1    8400 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A237
+P 8600 4100
+F 0 "D?" H 8600 4200 50  0000 C CNN
+F 1 "LED" H 8600 4000 50  0000 C CNN
+	1    8600 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A236
+P 8600 3700
+F 0 "D?" H 8600 3800 50  0000 C CNN
+F 1 "LED" H 8600 3600 50  0000 C CNN
+	1    8600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A235
+P 8600 3300
+F 0 "D?" H 8600 3400 50  0000 C CNN
+F 1 "LED" H 8600 3200 50  0000 C CNN
+	1    8600 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A234
+P 8600 2900
+F 0 "D?" H 8600 3000 50  0000 C CNN
+F 1 "LED" H 8600 2800 50  0000 C CNN
+	1    8600 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A233
+P 9000 2900
+F 0 "D?" H 9000 3000 50  0000 C CNN
+F 1 "LED" H 9000 2800 50  0000 C CNN
+	1    9000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A232
+P 9000 3300
+F 0 "D?" H 9000 3400 50  0000 C CNN
+F 1 "LED" H 9000 3200 50  0000 C CNN
+	1    9000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A231
+P 9000 3700
+F 0 "D?" H 9000 3800 50  0000 C CNN
+F 1 "LED" H 9000 3600 50  0000 C CNN
+	1    9000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A230
+P 9000 4100
+F 0 "D?" H 9000 4200 50  0000 C CNN
+F 1 "LED" H 9000 4000 50  0000 C CNN
+	1    9000 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A22F
+P 8800 4100
+F 0 "D?" H 8800 4200 50  0000 C CNN
+F 1 "LED" H 8800 4000 50  0000 C CNN
+	1    8800 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A22E
+P 8800 3700
+F 0 "D?" H 8800 3800 50  0000 C CNN
+F 1 "LED" H 8800 3600 50  0000 C CNN
+	1    8800 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A22D
+P 8800 3300
+F 0 "D?" H 8800 3400 50  0000 C CNN
+F 1 "LED" H 8800 3200 50  0000 C CNN
+	1    8800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A22C
+P 8800 2900
+F 0 "D?" H 8800 3000 50  0000 C CNN
+F 1 "LED" H 8800 2800 50  0000 C CNN
+	1    8800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A22B
+P 8000 2900
+F 0 "D?" H 8000 3000 50  0000 C CNN
+F 1 "LED" H 8000 2800 50  0000 C CNN
+	1    8000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A22A
+P 8000 3300
+F 0 "D?" H 8000 3400 50  0000 C CNN
+F 1 "LED" H 8000 3200 50  0000 C CNN
+	1    8000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A229
+P 8000 3700
+F 0 "D?" H 8000 3800 50  0000 C CNN
+F 1 "LED" H 8000 3600 50  0000 C CNN
+	1    8000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A228
+P 8000 4100
+F 0 "D?" H 8000 4200 50  0000 C CNN
+F 1 "LED" H 8000 4000 50  0000 C CNN
+	1    8000 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A227
+P 8200 4100
+F 0 "D?" H 8200 4200 50  0000 C CNN
+F 1 "LED" H 8200 4000 50  0000 C CNN
+	1    8200 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A226
+P 8200 3700
+F 0 "D?" H 8200 3800 50  0000 C CNN
+F 1 "LED" H 8200 3600 50  0000 C CNN
+	1    8200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A225
+P 8200 3300
+F 0 "D?" H 8200 3400 50  0000 C CNN
+F 1 "LED" H 8200 3200 50  0000 C CNN
+	1    8200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A224
+P 8200 2900
+F 0 "D?" H 8200 3000 50  0000 C CNN
+F 1 "LED" H 8200 2800 50  0000 C CNN
+	1    8200 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A223
+P 7800 2900
+F 0 "D?" H 7800 3000 50  0000 C CNN
+F 1 "LED" H 7800 2800 50  0000 C CNN
+	1    7800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A222
+P 7800 3300
+F 0 "D?" H 7800 3400 50  0000 C CNN
+F 1 "LED" H 7800 3200 50  0000 C CNN
+	1    7800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A221
+P 7800 3700
+F 0 "D?" H 7800 3800 50  0000 C CNN
+F 1 "LED" H 7800 3600 50  0000 C CNN
+	1    7800 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A220
+P 7800 4100
+F 0 "D?" H 7800 4200 50  0000 C CNN
+F 1 "LED" H 7800 4000 50  0000 C CNN
+	1    7800 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A21F
+P 7600 4100
+F 0 "D?" H 7600 4200 50  0000 C CNN
+F 1 "LED" H 7600 4000 50  0000 C CNN
+	1    7600 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A21E
+P 7600 3700
+F 0 "D?" H 7600 3800 50  0000 C CNN
+F 1 "LED" H 7600 3600 50  0000 C CNN
+	1    7600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A21D
+P 7600 3300
+F 0 "D?" H 7600 3400 50  0000 C CNN
+F 1 "LED" H 7600 3200 50  0000 C CNN
+	1    7600 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A21C
+P 7600 2900
+F 0 "D?" H 7600 3000 50  0000 C CNN
+F 1 "LED" H 7600 2800 50  0000 C CNN
+	1    7600 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A21B
+P 5800 2900
+F 0 "D?" H 5800 3000 50  0000 C CNN
+F 1 "LED" H 5800 2800 50  0000 C CNN
+	1    5800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A21A
+P 5800 3300
+F 0 "D?" H 5800 3400 50  0000 C CNN
+F 1 "LED" H 5800 3200 50  0000 C CNN
+	1    5800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A219
+P 5800 3700
+F 0 "D?" H 5800 3800 50  0000 C CNN
+F 1 "LED" H 5800 3600 50  0000 C CNN
+	1    5800 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A218
+P 5800 4100
+F 0 "D?" H 5800 4200 50  0000 C CNN
+F 1 "LED" H 5800 4000 50  0000 C CNN
+	1    5800 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A217
+P 6000 4100
+F 0 "D?" H 6000 4200 50  0000 C CNN
+F 1 "LED" H 6000 4000 50  0000 C CNN
+	1    6000 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A216
+P 6000 3700
+F 0 "D?" H 6000 3800 50  0000 C CNN
+F 1 "LED" H 6000 3600 50  0000 C CNN
+	1    6000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A215
+P 6000 3300
+F 0 "D?" H 6000 3400 50  0000 C CNN
+F 1 "LED" H 6000 3200 50  0000 C CNN
+	1    6000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A214
+P 6000 2900
+F 0 "D?" H 6000 3000 50  0000 C CNN
+F 1 "LED" H 6000 2800 50  0000 C CNN
+	1    6000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A213
+P 6400 2900
+F 0 "D?" H 6400 3000 50  0000 C CNN
+F 1 "LED" H 6400 2800 50  0000 C CNN
+	1    6400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A212
+P 6400 3300
+F 0 "D?" H 6400 3400 50  0000 C CNN
+F 1 "LED" H 6400 3200 50  0000 C CNN
+	1    6400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A211
+P 6400 3700
+F 0 "D?" H 6400 3800 50  0000 C CNN
+F 1 "LED" H 6400 3600 50  0000 C CNN
+	1    6400 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A210
+P 6400 4100
+F 0 "D?" H 6400 4200 50  0000 C CNN
+F 1 "LED" H 6400 4000 50  0000 C CNN
+	1    6400 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A20F
+P 6200 4100
+F 0 "D?" H 6200 4200 50  0000 C CNN
+F 1 "LED" H 6200 4000 50  0000 C CNN
+	1    6200 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A20E
+P 6200 3700
+F 0 "D?" H 6200 3800 50  0000 C CNN
+F 1 "LED" H 6200 3600 50  0000 C CNN
+	1    6200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A20D
+P 6200 3300
+F 0 "D?" H 6200 3400 50  0000 C CNN
+F 1 "LED" H 6200 3200 50  0000 C CNN
+	1    6200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A20C
+P 6200 2900
+F 0 "D?" H 6200 3000 50  0000 C CNN
+F 1 "LED" H 6200 2800 50  0000 C CNN
+	1    6200 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A20B
+P 7000 2900
+F 0 "D?" H 7000 3000 50  0000 C CNN
+F 1 "LED" H 7000 2800 50  0000 C CNN
+	1    7000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A20A
+P 7000 3300
+F 0 "D?" H 7000 3400 50  0000 C CNN
+F 1 "LED" H 7000 3200 50  0000 C CNN
+	1    7000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A209
+P 7000 3700
+F 0 "D?" H 7000 3800 50  0000 C CNN
+F 1 "LED" H 7000 3600 50  0000 C CNN
+	1    7000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A208
+P 7000 4100
+F 0 "D?" H 7000 4200 50  0000 C CNN
+F 1 "LED" H 7000 4000 50  0000 C CNN
+	1    7000 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A207
+P 7200 4100
+F 0 "D?" H 7200 4200 50  0000 C CNN
+F 1 "LED" H 7200 4000 50  0000 C CNN
+	1    7200 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A206
+P 7200 3700
+F 0 "D?" H 7200 3800 50  0000 C CNN
+F 1 "LED" H 7200 3600 50  0000 C CNN
+	1    7200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A205
+P 7200 3300
+F 0 "D?" H 7200 3400 50  0000 C CNN
+F 1 "LED" H 7200 3200 50  0000 C CNN
+	1    7200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A204
+P 7200 2900
+F 0 "D?" H 7200 3000 50  0000 C CNN
+F 1 "LED" H 7200 2800 50  0000 C CNN
+	1    7200 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A203
+P 6800 2900
+F 0 "D?" H 6800 3000 50  0000 C CNN
+F 1 "LED" H 6800 2800 50  0000 C CNN
+	1    6800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A202
+P 6800 3300
+F 0 "D?" H 6800 3400 50  0000 C CNN
+F 1 "LED" H 6800 3200 50  0000 C CNN
+	1    6800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A201
+P 6800 3700
+F 0 "D?" H 6800 3800 50  0000 C CNN
+F 1 "LED" H 6800 3600 50  0000 C CNN
+	1    6800 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A200
+P 6800 4100
+F 0 "D?" H 6800 4200 50  0000 C CNN
+F 1 "LED" H 6800 4000 50  0000 C CNN
+	1    6800 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1FF
+P 6600 4100
+F 0 "D?" H 6600 4200 50  0000 C CNN
+F 1 "LED" H 6600 4000 50  0000 C CNN
+	1    6600 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1FE
+P 6600 3700
+F 0 "D?" H 6600 3800 50  0000 C CNN
+F 1 "LED" H 6600 3600 50  0000 C CNN
+	1    6600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1FD
+P 6600 3300
+F 0 "D?" H 6600 3400 50  0000 C CNN
+F 1 "LED" H 6600 3200 50  0000 C CNN
+	1    6600 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1FC
+P 6600 2900
+F 0 "D?" H 6600 3000 50  0000 C CNN
+F 1 "LED" H 6600 2800 50  0000 C CNN
+	1    6600 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1FB
+P 5000 2900
+F 0 "D?" H 5000 3000 50  0000 C CNN
+F 1 "LED" H 5000 2800 50  0000 C CNN
+	1    5000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1FA
+P 5000 3300
+F 0 "D?" H 5000 3400 50  0000 C CNN
+F 1 "LED" H 5000 3200 50  0000 C CNN
+	1    5000 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1F9
+P 5000 3700
+F 0 "D?" H 5000 3800 50  0000 C CNN
+F 1 "LED" H 5000 3600 50  0000 C CNN
+	1    5000 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1F8
+P 5000 4100
+F 0 "D?" H 5000 4200 50  0000 C CNN
+F 1 "LED" H 5000 4000 50  0000 C CNN
+	1    5000 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1F7
+P 5200 4100
+F 0 "D?" H 5200 4200 50  0000 C CNN
+F 1 "LED" H 5200 4000 50  0000 C CNN
+	1    5200 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1F6
+P 5200 3700
+F 0 "D?" H 5200 3800 50  0000 C CNN
+F 1 "LED" H 5200 3600 50  0000 C CNN
+	1    5200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1F5
+P 5200 3300
+F 0 "D?" H 5200 3400 50  0000 C CNN
+F 1 "LED" H 5200 3200 50  0000 C CNN
+	1    5200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1F4
+P 5200 2900
+F 0 "D?" H 5200 3000 50  0000 C CNN
+F 1 "LED" H 5200 2800 50  0000 C CNN
+	1    5200 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1F3
+P 5600 2900
+F 0 "D?" H 5600 3000 50  0000 C CNN
+F 1 "LED" H 5600 2800 50  0000 C CNN
+	1    5600 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1F2
+P 5600 3300
+F 0 "D?" H 5600 3400 50  0000 C CNN
+F 1 "LED" H 5600 3200 50  0000 C CNN
+	1    5600 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1F1
+P 5600 3700
+F 0 "D?" H 5600 3800 50  0000 C CNN
+F 1 "LED" H 5600 3600 50  0000 C CNN
+	1    5600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1F0
+P 5600 4100
+F 0 "D?" H 5600 4200 50  0000 C CNN
+F 1 "LED" H 5600 4000 50  0000 C CNN
+	1    5600 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1EF
+P 5400 4100
+F 0 "D?" H 5400 4200 50  0000 C CNN
+F 1 "LED" H 5400 4000 50  0000 C CNN
+	1    5400 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1EE
+P 5400 3700
+F 0 "D?" H 5400 3800 50  0000 C CNN
+F 1 "LED" H 5400 3600 50  0000 C CNN
+	1    5400 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1ED
+P 5400 3300
+F 0 "D?" H 5400 3400 50  0000 C CNN
+F 1 "LED" H 5400 3200 50  0000 C CNN
+	1    5400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1EC
+P 5400 2900
+F 0 "D?" H 5400 3000 50  0000 C CNN
+F 1 "LED" H 5400 2800 50  0000 C CNN
+	1    5400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1DC
+P 4600 2900
+F 0 "D?" H 4600 3000 50  0000 C CNN
+F 1 "LED" H 4600 2800 50  0000 C CNN
+	1    4600 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1DB
+P 4600 3300
+F 0 "D?" H 4600 3400 50  0000 C CNN
+F 1 "LED" H 4600 3200 50  0000 C CNN
+	1    4600 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1DA
+P 4600 3700
+F 0 "D?" H 4600 3800 50  0000 C CNN
+F 1 "LED" H 4600 3600 50  0000 C CNN
+	1    4600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1D9
+P 4600 4100
+F 0 "D?" H 4600 4200 50  0000 C CNN
+F 1 "LED" H 4600 4000 50  0000 C CNN
+	1    4600 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1D8
+P 4800 4100
+F 0 "D?" H 4800 4200 50  0000 C CNN
+F 1 "LED" H 4800 4000 50  0000 C CNN
+	1    4800 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1D7
+P 4800 3700
+F 0 "D?" H 4800 3800 50  0000 C CNN
+F 1 "LED" H 4800 3600 50  0000 C CNN
+	1    4800 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1D6
+P 4800 3300
+F 0 "D?" H 4800 3400 50  0000 C CNN
+F 1 "LED" H 4800 3200 50  0000 C CNN
+	1    4800 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1D5
+P 4800 2900
+F 0 "D?" H 4800 3000 50  0000 C CNN
+F 1 "LED" H 4800 2800 50  0000 C CNN
+	1    4800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1CC
+P 4400 2900
+F 0 "D?" H 4400 3000 50  0000 C CNN
+F 1 "LED" H 4400 2800 50  0000 C CNN
+	1    4400 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1CB
+P 4400 3300
+F 0 "D?" H 4400 3400 50  0000 C CNN
+F 1 "LED" H 4400 3200 50  0000 C CNN
+	1    4400 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1CA
+P 4400 3700
+F 0 "D?" H 4400 3800 50  0000 C CNN
+F 1 "LED" H 4400 3600 50  0000 C CNN
+	1    4400 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A1C9
+P 4400 4100
+F 0 "D?" H 4400 4200 50  0000 C CNN
+F 1 "LED" H 4400 4000 50  0000 C CNN
+	1    4400 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A16C
+P 4200 4100
+F 0 "D?" H 4200 4200 50  0000 C CNN
+F 1 "LED" H 4200 4000 50  0000 C CNN
+	1    4200 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A166
+P 4200 3700
+F 0 "D?" H 4200 3800 50  0000 C CNN
+F 1 "LED" H 4200 3600 50  0000 C CNN
+	1    4200 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A156
+P 4200 3300
+F 0 "D?" H 4200 3400 50  0000 C CNN
+F 1 "LED" H 4200 3200 50  0000 C CNN
+	1    4200 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4FE3A0A1
+P 4200 2300
+F 0 "#PWR?" H 4200 2400 30  0001 C CNN
+F 1 "VCC" H 4200 2400 30  0000 C CNN
+	1    4200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4FE3A010
+P 4200 2900
+F 0 "D?" H 4200 3000 50  0000 C CNN
+F 1 "LED" H 4200 2800 50  0000 C CNN
+	1    4200 2900
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
