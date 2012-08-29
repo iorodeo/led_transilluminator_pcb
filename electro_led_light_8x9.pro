@@ -1,4 +1,4 @@
-update=Mon 25 Jun 2012 01:25:53 PM PDT
+update=Tue 26 Jun 2012 10:38:28 AM PDT
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -35,3 +35,4 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=DCJACK_2PIN
+LibName12=CUSTOM LED-5MM
