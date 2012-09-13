@@ -1,10 +1,5 @@
-update=Tue 26 Jun 2012 10:38:28 AM PDT
-last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=.net
-[cvpcb/libraries]
-EquName1=devcms
+update=Wed 29 Aug 2012 05:07:16 PM PDT
+last_client=cvpcb
 [pcbnew]
 version=1
 PadDrlX=320
@@ -23,7 +18,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=electro_led_light_8x9.net
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -36,3 +30,11 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=DCJACK_2PIN
 LibName12=CUSTOM LED-5MM
+LibName13=slide_switch
+LibName14=LED-5MM
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

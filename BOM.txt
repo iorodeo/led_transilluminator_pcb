@@ -1,0 +1,7 @@
+Part      Description                    Vendor    PN               QTY
+----------------------------------------------------------------------------------
+D1-72     LED 470NM ROUND BLUE 5MM       Digikey   365-1180-ND       72
+P1        jack, DC, PWR, male, 2.5mm     Jameco    101186            1
+SW1       Slide switch                   Digikey   CKC5102-ND        1
+R1        5.6 ohm resistor               Digikey   P5.6BACT-ND       1
+

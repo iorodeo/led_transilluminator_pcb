@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Tue 26 Jun 2012 10:40:16 AM PDT
+Cmp-Mod V01 Created by PcbNew date = Wed 29 Aug 2012 05:15:48 PM PDT
 
 BeginCmp
 TimeStamp = /4FE3A010;
@@ -523,6 +523,13 @@ TimeStamp = /4FE3A7FD;
 Reference = R2;
 ValeurCmp = R;
 IdModule  = R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /503E9EE5;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = slide_switch;
 EndCmp
 
 EndListe
