@@ -1,1188 +1,1225 @@
-# EESchema Netlist Version 1.1 created  Wed 29 Aug 2012 04:46:13 PM PDT
-(
- ( /4FE3AABB $noname  P1 CONN_2 {Lib=CONN_2}
-  (    1 /15V )
-  (    2 GND )
- )
- ( /4FE3A7FD $noname  R2 R {Lib=R}
-  (    1 N-000015 )
-  (    2 GND )
- )
- ( /4FE3A482 $noname  R1 R {Lib=R}
-  (    1 N-000015 )
-  (    2 GND )
- )
- ( /4FE3A23F $noname  D68 LED {Lib=LED}
-  (    1 N-000031 )
-  (    2 N-000015 )
- )
- ( /4FE3A23E $noname  D67 LED {Lib=LED}
-  (    1 N-000032 )
-  (    2 N-000031 )
- )
- ( /4FE3A23D $noname  D66 LED {Lib=LED}
-  (    1 N-000033 )
-  (    2 N-000032 )
- )
- ( /4FE3A23C $noname  D65 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000033 )
- )
- ( /4FE3A21F $noname  D72 LED {Lib=LED}
-  (    1 N-000034 )
-  (    2 N-000015 )
- )
- ( /4FE3A21E $noname  D71 LED {Lib=LED}
-  (    1 N-000035 )
-  (    2 N-000034 )
- )
- ( /4FE3A21D $noname  D70 LED {Lib=LED}
-  (    1 N-000017 )
-  (    2 N-000035 )
- )
- ( /4FE3A21C $noname  D69 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000017 )
- )
- ( /4FE3A21B $noname  D33 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000018 )
- )
- ( /4FE3A21A $noname  D34 LED {Lib=LED}
-  (    1 N-000018 )
-  (    2 N-000019 )
- )
- ( /4FE3A219 $noname  D35 LED {Lib=LED}
-  (    1 N-000019 )
-  (    2 N-000020 )
- )
- ( /4FE3A218 $noname  D36 LED {Lib=LED}
-  (    1 N-000020 )
-  (    2 N-000015 )
- )
- ( /4FE3A217 $noname  D40 LED {Lib=LED}
-  (    1 N-000021 )
-  (    2 N-000015 )
- )
- ( /4FE3A216 $noname  D39 LED {Lib=LED}
-  (    1 N-000022 )
-  (    2 N-000021 )
- )
- ( /4FE3A215 $noname  D38 LED {Lib=LED}
-  (    1 N-000023 )
-  (    2 N-000022 )
- )
- ( /4FE3A214 $noname  D37 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000023 )
- )
- ( /4FE3A213 $noname  D45 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000024 )
- )
- ( /4FE3A212 $noname  D46 LED {Lib=LED}
-  (    1 N-000024 )
-  (    2 N-000025 )
- )
- ( /4FE3A211 $noname  D47 LED {Lib=LED}
-  (    1 N-000025 )
-  (    2 N-000026 )
- )
- ( /4FE3A210 $noname  D48 LED {Lib=LED}
-  (    1 N-000026 )
-  (    2 N-000015 )
- )
- ( /4FE3A20F $noname  D44 LED {Lib=LED}
-  (    1 N-000027 )
-  (    2 N-000015 )
- )
- ( /4FE3A20E $noname  D43 LED {Lib=LED}
-  (    1 N-000028 )
-  (    2 N-000027 )
- )
- ( /4FE3A20D $noname  D42 LED {Lib=LED}
-  (    1 N-000029 )
-  (    2 N-000028 )
- )
- ( /4FE3A20C $noname  D41 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000029 )
- )
- ( /4FE3A20B $noname  D57 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000048 )
- )
- ( /4FE3A20A $noname  D58 LED {Lib=LED}
-  (    1 N-000048 )
-  (    2 N-000049 )
- )
- ( /4FE3A209 $noname  D59 LED {Lib=LED}
-  (    1 N-000049 )
-  (    2 N-000050 )
- )
- ( /4FE3A208 $noname  D60 LED {Lib=LED}
-  (    1 N-000050 )
-  (    2 N-000015 )
- )
- ( /4FE3A207 $noname  D64 LED {Lib=LED}
-  (    1 N-000051 )
-  (    2 N-000015 )
- )
- ( /4FE3A206 $noname  D63 LED {Lib=LED}
-  (    1 N-000052 )
-  (    2 N-000051 )
- )
- ( /4FE3A205 $noname  D62 LED {Lib=LED}
-  (    1 N-000053 )
-  (    2 N-000052 )
- )
- ( /4FE3A204 $noname  D61 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000053 )
- )
- ( /4FE3A203 $noname  D53 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000054 )
- )
- ( /4FE3A202 $noname  D54 LED {Lib=LED}
-  (    1 N-000054 )
-  (    2 N-000055 )
- )
- ( /4FE3A201 $noname  D55 LED {Lib=LED}
-  (    1 N-000055 )
-  (    2 N-000056 )
- )
- ( /4FE3A200 $noname  D56 LED {Lib=LED}
-  (    1 N-000056 )
-  (    2 N-000015 )
- )
- ( /4FE3A1FF $noname  D52 LED {Lib=LED}
-  (    1 N-000057 )
-  (    2 N-000015 )
- )
- ( /4FE3A1FE $noname  D51 LED {Lib=LED}
-  (    1 N-000058 )
-  (    2 N-000057 )
- )
- ( /4FE3A1FD $noname  D50 LED {Lib=LED}
-  (    1 N-000036 )
-  (    2 N-000058 )
- )
- ( /4FE3A1FC $noname  D49 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000036 )
- )
- ( /4FE3A1FB $noname  D17 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000037 )
- )
- ( /4FE3A1FA $noname  D18 LED {Lib=LED}
-  (    1 N-000037 )
-  (    2 N-000038 )
- )
- ( /4FE3A1F9 $noname  D19 LED {Lib=LED}
-  (    1 N-000038 )
-  (    2 N-000039 )
- )
- ( /4FE3A1F8 $noname  D20 LED {Lib=LED}
-  (    1 N-000039 )
-  (    2 N-000015 )
- )
- ( /4FE3A1F7 $noname  D24 LED {Lib=LED}
-  (    1 N-000040 )
-  (    2 N-000015 )
- )
- ( /4FE3A1F6 $noname  D23 LED {Lib=LED}
-  (    1 N-000041 )
-  (    2 N-000040 )
- )
- ( /4FE3A1F5 $noname  D22 LED {Lib=LED}
-  (    1 N-000042 )
-  (    2 N-000041 )
- )
- ( /4FE3A1F4 $noname  D21 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000042 )
- )
- ( /4FE3A1F3 $noname  D29 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000043 )
- )
- ( /4FE3A1F2 $noname  D30 LED {Lib=LED}
-  (    1 N-000043 )
-  (    2 N-000044 )
- )
- ( /4FE3A1F1 $noname  D31 LED {Lib=LED}
-  (    1 N-000044 )
-  (    2 N-000045 )
- )
- ( /4FE3A1F0 $noname  D32 LED {Lib=LED}
-  (    1 N-000045 )
-  (    2 N-000015 )
- )
- ( /4FE3A1EF $noname  D28 LED {Lib=LED}
-  (    1 N-000046 )
-  (    2 N-000015 )
- )
- ( /4FE3A1EE $noname  D27 LED {Lib=LED}
-  (    1 N-000047 )
-  (    2 N-000046 )
- )
- ( /4FE3A1ED $noname  D26 LED {Lib=LED}
-  (    1 N-000003 )
-  (    2 N-000047 )
- )
- ( /4FE3A1EC $noname  D25 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000003 )
- )
- ( /4FE3A1DC $noname  D9 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000004 )
- )
- ( /4FE3A1DB $noname  D10 LED {Lib=LED}
-  (    1 N-000004 )
-  (    2 N-000005 )
- )
- ( /4FE3A1DA $noname  D11 LED {Lib=LED}
-  (    1 N-000005 )
-  (    2 N-000006 )
- )
- ( /4FE3A1D9 $noname  D12 LED {Lib=LED}
-  (    1 N-000006 )
-  (    2 N-000015 )
- )
- ( /4FE3A1D8 $noname  D16 LED {Lib=LED}
-  (    1 N-000007 )
-  (    2 N-000015 )
- )
- ( /4FE3A1D7 $noname  D15 LED {Lib=LED}
-  (    1 N-000008 )
-  (    2 N-000007 )
- )
- ( /4FE3A1D6 $noname  D14 LED {Lib=LED}
-  (    1 N-000009 )
-  (    2 N-000008 )
- )
- ( /4FE3A1D5 $noname  D13 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000009 )
- )
- ( /4FE3A1CC $noname  D5 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000010 )
- )
- ( /4FE3A1CB $noname  D6 LED {Lib=LED}
-  (    1 N-000010 )
-  (    2 N-000011 )
- )
- ( /4FE3A1CA $noname  D7 LED {Lib=LED}
-  (    1 N-000011 )
-  (    2 N-000012 )
- )
- ( /4FE3A1C9 $noname  D8 LED {Lib=LED}
-  (    1 N-000012 )
-  (    2 N-000015 )
- )
- ( /4FE3A16C $noname  D4 LED {Lib=LED}
-  (    1 N-000013 )
-  (    2 N-000015 )
- )
- ( /4FE3A166 $noname  D3 LED {Lib=LED}
-  (    1 N-000014 )
-  (    2 N-000013 )
- )
- ( /4FE3A156 $noname  D2 LED {Lib=LED}
-  (    1 N-000001 )
-  (    2 N-000014 )
- )
- ( /4FE3A010 $noname  D1 LED {Lib=LED}
-  (    1 N-000016 )
-  (    2 N-000001 )
- )
- ( /503E9EE5 $noname  SW1 SWITCH_INV {Lib=SWITCH_INV}
-  (    1 /15V )
-  (    2 N-000016 )
-  (    3 GND )
- )
-)
-*
-{ Allowed footprints by component:
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D68
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D67
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D66
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D65
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D72
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D71
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D70
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D69
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D33
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D34
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D35
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D36
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D40
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D39
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D38
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D37
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D45
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D46
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D47
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D48
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D44
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D43
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D42
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D41
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D57
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D58
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D59
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D60
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D64
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D63
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D62
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D61
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D53
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D54
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D55
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D56
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D52
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D51
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D50
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D49
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D17
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D18
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D19
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D20
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D24
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D23
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D22
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D21
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D29
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D30
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D31
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D32
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D28
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D27
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D26
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D25
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D9
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D10
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D11
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D12
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D16
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D15
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D14
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D13
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D5
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D6
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D7
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D8
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D4
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D3
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "" ""
- D1 2
- D2 1
-Net 2 "GND" "GND"
- P1 2
- R2 2
- R1 2
- SW1 3
-Net 3 "" ""
- D25 2
- D26 1
-Net 4 "" ""
- D9 2
- D10 1
-Net 5 "" ""
- D10 2
- D11 1
-Net 6 "" ""
- D11 2
- D12 1
-Net 7 "" ""
- D15 2
- D16 1
-Net 8 "" ""
- D15 1
- D14 2
-Net 9 "" ""
- D14 1
- D13 2
-Net 10 "" ""
- D5 2
- D6 1
-Net 11 "" ""
- D6 2
- D7 1
-Net 12 "" ""
- D7 2
- D8 1
-Net 13 "" ""
- D4 1
- D3 2
-Net 14 "" ""
- D2 2
- D3 1
-Net 15 "" ""
- D52 2
- D56 2
- D24 2
- D60 2
- D32 2
- D40 2
- D28 2
- D36 2
- D16 2
- D12 2
- D8 2
- D4 2
- R2 1
- R1 1
- D44 2
- D68 2
- D48 2
- D72 2
- D20 2
- D64 2
-Net 16 "" ""
- D41 1
- D57 1
- D61 1
- D33 1
- D53 1
- D29 1
- D21 1
- D37 1
- D45 1
- D17 1
- D49 1
- D69 1
- D65 1
- D5 1
- D13 1
- D9 1
- D25 1
- SW1 2
- D1 1
-Net 17 "" ""
- D70 1
- D69 2
-Net 18 "" ""
- D34 1
- D33 2
-Net 19 "" ""
- D35 1
- D34 2
-Net 20 "" ""
- D35 2
- D36 1
-Net 21 "" ""
- D39 2
- D40 1
-Net 22 "" ""
- D38 2
- D39 1
-Net 23 "" ""
- D37 2
- D38 1
-Net 24 "" ""
- D46 1
- D45 2
-Net 25 "" ""
- D47 1
- D46 2
-Net 26 "" ""
- D48 1
- D47 2
-Net 27 "" ""
- D44 1
- D43 2
-Net 28 "" ""
- D43 1
- D42 2
-Net 29 "" ""
- D42 1
- D41 2
-Net 30 "/15V" "15V"
- SW1 1
- P1 1
-Net 31 "" ""
- D68 1
- D67 2
-Net 32 "" ""
- D67 1
- D66 2
-Net 33 "" ""
- D66 1
- D65 2
-Net 34 "" ""
- D72 1
- D71 2
-Net 35 "" ""
- D71 1
- D70 2
-Net 36 "" ""
- D49 2
- D50 1
-Net 37 "" ""
- D18 1
- D17 2
-Net 38 "" ""
- D18 2
- D19 1
-Net 39 "" ""
- D20 1
- D19 2
-Net 40 "" ""
- D23 2
- D24 1
-Net 41 "" ""
- D22 2
- D23 1
-Net 42 "" ""
- D21 2
- D22 1
-Net 43 "" ""
- D30 1
- D29 2
-Net 44 "" ""
- D31 1
- D30 2
-Net 45 "" ""
- D31 2
- D32 1
-Net 46 "" ""
- D28 1
- D27 2
-Net 47 "" ""
- D27 1
- D26 2
-Net 48 "" ""
- D58 1
- D57 2
-Net 49 "" ""
- D59 1
- D58 2
-Net 50 "" ""
- D60 1
- D59 2
-Net 51 "" ""
- D64 1
- D63 2
-Net 52 "" ""
- D63 1
- D62 2
-Net 53 "" ""
- D61 2
- D62 1
-Net 54 "" ""
- D54 1
- D53 2
-Net 55 "" ""
- D54 2
- D55 1
-Net 56 "" ""
- D55 2
- D56 1
-Net 57 "" ""
- D52 1
- D51 2
-Net 58 "" ""
- D51 1
- D50 2
-}
-#End
+(export (version D)
+  (design
+    (source /home/jo/repos/led_transilluminator_pcb/9x12/led_array.sch)
+    (date "Tue 29 Oct 2013 04:55:16 PM PDT")
+    (tool "eeschema (2013-mar-13)-testing"))
+  (components
+    (comp (ref P1)
+      (value CONN_2)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3AABB))
+    (comp (ref R1)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A482))
+    (comp (ref D68)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A23F))
+    (comp (ref D67)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A23E))
+    (comp (ref D66)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A23D))
+    (comp (ref D65)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A23C))
+    (comp (ref D72)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A21F))
+    (comp (ref D71)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A21E))
+    (comp (ref D70)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A21D))
+    (comp (ref D69)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A21C))
+    (comp (ref D33)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A21B))
+    (comp (ref D34)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A21A))
+    (comp (ref D35)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A219))
+    (comp (ref D36)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A218))
+    (comp (ref D40)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A217))
+    (comp (ref D39)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A216))
+    (comp (ref D38)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A215))
+    (comp (ref D37)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A214))
+    (comp (ref D45)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A213))
+    (comp (ref D46)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A212))
+    (comp (ref D47)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A211))
+    (comp (ref D48)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A210))
+    (comp (ref D44)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A20F))
+    (comp (ref D43)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A20E))
+    (comp (ref D42)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A20D))
+    (comp (ref D41)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A20C))
+    (comp (ref D57)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A20B))
+    (comp (ref D58)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A20A))
+    (comp (ref D59)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A209))
+    (comp (ref D60)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A208))
+    (comp (ref D64)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A207))
+    (comp (ref D63)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A206))
+    (comp (ref D62)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A205))
+    (comp (ref D61)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A204))
+    (comp (ref D53)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A203))
+    (comp (ref D54)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A202))
+    (comp (ref D55)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A201))
+    (comp (ref D56)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A200))
+    (comp (ref D52)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1FF))
+    (comp (ref D51)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1FE))
+    (comp (ref D50)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1FD))
+    (comp (ref D49)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1FC))
+    (comp (ref D17)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1FB))
+    (comp (ref D18)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1FA))
+    (comp (ref D19)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1F9))
+    (comp (ref D20)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1F8))
+    (comp (ref D24)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1F7))
+    (comp (ref D23)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1F6))
+    (comp (ref D22)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1F5))
+    (comp (ref D21)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1F4))
+    (comp (ref D29)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1F3))
+    (comp (ref D30)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1F2))
+    (comp (ref D31)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1F1))
+    (comp (ref D32)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1F0))
+    (comp (ref D28)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1EF))
+    (comp (ref D27)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1EE))
+    (comp (ref D26)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1ED))
+    (comp (ref D25)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1EC))
+    (comp (ref D9)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1DC))
+    (comp (ref D10)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1DB))
+    (comp (ref D11)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1DA))
+    (comp (ref D12)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1D9))
+    (comp (ref D16)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1D8))
+    (comp (ref D15)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1D7))
+    (comp (ref D14)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1D6))
+    (comp (ref D13)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1D5))
+    (comp (ref D5)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1CC))
+    (comp (ref D6)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1CB))
+    (comp (ref D7)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1CA))
+    (comp (ref D8)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A1C9))
+    (comp (ref D4)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A16C))
+    (comp (ref D3)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A166))
+    (comp (ref D2)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A156))
+    (comp (ref D1)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4FE3A010))
+    (comp (ref SW1)
+      (value SWITCH_INV)
+      (libsource (lib device) (part SWITCH_INV))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 503E9EE5))
+    (comp (ref D140)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270486D))
+    (comp (ref D139)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704873))
+    (comp (ref D138)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704879))
+    (comp (ref D137)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270487F))
+    (comp (ref D144)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704885))
+    (comp (ref D143)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270488B))
+    (comp (ref D142)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704891))
+    (comp (ref D141)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704897))
+    (comp (ref D105)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270489D))
+    (comp (ref D106)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048A3))
+    (comp (ref D107)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048A9))
+    (comp (ref D108)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048AF))
+    (comp (ref D112)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048B5))
+    (comp (ref D111)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048BB))
+    (comp (ref D110)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048C1))
+    (comp (ref D109)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048C7))
+    (comp (ref D117)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048CD))
+    (comp (ref D118)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048D3))
+    (comp (ref D119)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048D9))
+    (comp (ref D120)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048DF))
+    (comp (ref D116)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048E5))
+    (comp (ref D115)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048EB))
+    (comp (ref D114)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048F1))
+    (comp (ref D113)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048F7))
+    (comp (ref D129)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527048FD))
+    (comp (ref D130)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704903))
+    (comp (ref D131)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704909))
+    (comp (ref D132)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270490F))
+    (comp (ref D136)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704915))
+    (comp (ref D135)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270491B))
+    (comp (ref D134)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704921))
+    (comp (ref D133)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704927))
+    (comp (ref D125)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270492D))
+    (comp (ref D126)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704933))
+    (comp (ref D127)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704939))
+    (comp (ref D128)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270493F))
+    (comp (ref D124)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704945))
+    (comp (ref D123)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270494B))
+    (comp (ref D122)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704951))
+    (comp (ref D121)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704957))
+    (comp (ref D89)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270495D))
+    (comp (ref D90)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704963))
+    (comp (ref D91)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704969))
+    (comp (ref D92)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270496F))
+    (comp (ref D96)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704975))
+    (comp (ref D95)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270497B))
+    (comp (ref D94)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704981))
+    (comp (ref D93)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704987))
+    (comp (ref D101)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270498D))
+    (comp (ref D102)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704993))
+    (comp (ref D103)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704999))
+    (comp (ref D104)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5270499F))
+    (comp (ref D100)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049A5))
+    (comp (ref D99)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049AB))
+    (comp (ref D98)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049B1))
+    (comp (ref D97)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049B7))
+    (comp (ref D81)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049BD))
+    (comp (ref D82)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049C3))
+    (comp (ref D83)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049C9))
+    (comp (ref D84)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049CF))
+    (comp (ref D88)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049D5))
+    (comp (ref D87)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049DB))
+    (comp (ref D86)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049E1))
+    (comp (ref D85)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049E7))
+    (comp (ref D77)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049ED))
+    (comp (ref D78)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049F3))
+    (comp (ref D79)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049F9))
+    (comp (ref D80)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527049FF))
+    (comp (ref D76)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704A05))
+    (comp (ref D75)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704A0B))
+    (comp (ref D74)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704A11))
+    (comp (ref D73)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704A17))
+    (comp (ref R3)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52704A5A))
+    (comp (ref R4)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527052B6))
+    (comp (ref R2)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 527052C6)))
+  (libparts
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part SWITCH_INV)
+      (description "Switch inverseur")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SWITCH_INV))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib conn) (part CONN_2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive)))))
+  (libraries
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
+  (nets
+    (net (code 1) (name /15V)
+      (node (ref P1) (pin 1))
+      (node (ref SW1) (pin 1)))
+    (net (code 2) (name "")
+      (node (ref D73) (pin 2))
+      (node (ref D74) (pin 1)))
+    (net (code 3) (name "")
+      (node (ref D74) (pin 2))
+      (node (ref D75) (pin 1)))
+    (net (code 4) (name "")
+      (node (ref D60) (pin 2))
+      (node (ref D64) (pin 2))
+      (node (ref D56) (pin 2))
+      (node (ref D52) (pin 2))
+      (node (ref R2) (pin 1))
+      (node (ref D40) (pin 2))
+      (node (ref D48) (pin 2))
+      (node (ref D44) (pin 2))
+      (node (ref D68) (pin 2))
+      (node (ref D72) (pin 2)))
+    (net (code 5) (name "")
+      (node (ref D28) (pin 2))
+      (node (ref D32) (pin 2))
+      (node (ref D24) (pin 2))
+      (node (ref D20) (pin 2))
+      (node (ref R1) (pin 1))
+      (node (ref D36) (pin 2))
+      (node (ref D8) (pin 2))
+      (node (ref D16) (pin 2))
+      (node (ref D12) (pin 2))
+      (node (ref D4) (pin 2)))
+    (net (code 6) (name "")
+      (node (ref D97) (pin 2))
+      (node (ref D98) (pin 1)))
+    (net (code 7) (name "")
+      (node (ref D99) (pin 2))
+      (node (ref D100) (pin 1)))
+    (net (code 8) (name "")
+      (node (ref D98) (pin 2))
+      (node (ref D99) (pin 1)))
+    (net (code 9) (name "")
+      (node (ref D104) (pin 1))
+      (node (ref D103) (pin 2)))
+    (net (code 10) (name "")
+      (node (ref D103) (pin 1))
+      (node (ref D102) (pin 2)))
+    (net (code 11) (name "")
+      (node (ref D101) (pin 2))
+      (node (ref D102) (pin 1)))
+    (net (code 12) (name "")
+      (node (ref D93) (pin 2))
+      (node (ref D94) (pin 1)))
+    (net (code 13) (name "")
+      (node (ref D94) (pin 2))
+      (node (ref D95) (pin 1)))
+    (net (code 14) (name "")
+      (node (ref D95) (pin 2))
+      (node (ref D96) (pin 1)))
+    (net (code 15) (name "")
+      (node (ref D91) (pin 2))
+      (node (ref D92) (pin 1)))
+    (net (code 16) (name "")
+      (node (ref D90) (pin 2))
+      (node (ref D91) (pin 1)))
+    (net (code 17) (name "")
+      (node (ref D90) (pin 1))
+      (node (ref D89) (pin 2)))
+    (net (code 18) (name "")
+      (node (ref D121) (pin 2))
+      (node (ref D122) (pin 1)))
+    (net (code 19) (name "")
+      (node (ref D75) (pin 2))
+      (node (ref D76) (pin 1)))
+    (net (code 20) (name "")
+      (node (ref D79) (pin 2))
+      (node (ref D80) (pin 1)))
+    (net (code 21) (name "")
+      (node (ref D79) (pin 1))
+      (node (ref D78) (pin 2)))
+    (net (code 22) (name "")
+      (node (ref D78) (pin 1))
+      (node (ref D77) (pin 2)))
+    (net (code 23) (name "")
+      (node (ref D85) (pin 2))
+      (node (ref D86) (pin 1)))
+    (net (code 24) (name "")
+      (node (ref D86) (pin 2))
+      (node (ref D87) (pin 1)))
+    (net (code 25) (name "")
+      (node (ref D87) (pin 2))
+      (node (ref D88) (pin 1)))
+    (net (code 26) (name "")
+      (node (ref D84) (pin 1))
+      (node (ref D83) (pin 2)))
+    (net (code 27) (name "")
+      (node (ref D82) (pin 2))
+      (node (ref D83) (pin 1)))
+    (net (code 28) (name "")
+      (node (ref D82) (pin 1))
+      (node (ref D81) (pin 2)))
+    (net (code 29) (name "")
+      (node (ref D116) (pin 2))
+      (node (ref R4) (pin 1))
+      (node (ref D120) (pin 2))
+      (node (ref D112) (pin 2))
+      (node (ref D144) (pin 2))
+      (node (ref D132) (pin 2))
+      (node (ref D140) (pin 2))
+      (node (ref D136) (pin 2))
+      (node (ref D128) (pin 2))
+      (node (ref D124) (pin 2)))
+    (net (code 30) (name GND)
+      (node (ref R2) (pin 2))
+      (node (ref SW1) (pin 3))
+      (node (ref R4) (pin 2))
+      (node (ref P1) (pin 2))
+      (node (ref R3) (pin 2))
+      (node (ref R1) (pin 2)))
+    (net (code 31) (name "")
+      (node (ref D84) (pin 2))
+      (node (ref D108) (pin 2))
+      (node (ref R3) (pin 1))
+      (node (ref D104) (pin 2))
+      (node (ref D96) (pin 2))
+      (node (ref D92) (pin 2))
+      (node (ref D76) (pin 2))
+      (node (ref D100) (pin 2))
+      (node (ref D80) (pin 2))
+      (node (ref D88) (pin 2)))
+    (net (code 32) (name "")
+      (node (ref D1) (pin 1))
+      (node (ref D57) (pin 1))
+      (node (ref D41) (pin 1))
+      (node (ref D65) (pin 1))
+      (node (ref D69) (pin 1))
+      (node (ref D49) (pin 1))
+      (node (ref D17) (pin 1))
+      (node (ref D73) (pin 1))
+      (node (ref D21) (pin 1))
+      (node (ref D29) (pin 1))
+      (node (ref D129) (pin 1))
+      (node (ref D133) (pin 1))
+      (node (ref D125) (pin 1))
+      (node (ref D81) (pin 1))
+      (node (ref D97) (pin 1))
+      (node (ref D121) (pin 1))
+      (node (ref D85) (pin 1))
+      (node (ref D5) (pin 1))
+      (node (ref D109) (pin 1))
+      (node (ref D117) (pin 1))
+      (node (ref D13) (pin 1))
+      (node (ref D77) (pin 1))
+      (node (ref D113) (pin 1))
+      (node (ref D33) (pin 1))
+      (node (ref D9) (pin 1))
+      (node (ref D25) (pin 1))
+      (node (ref D105) (pin 1))
+      (node (ref D37) (pin 1))
+      (node (ref D141) (pin 1))
+      (node (ref D45) (pin 1))
+      (node (ref D137) (pin 1))
+      (node (ref D89) (pin 1))
+      (node (ref D93) (pin 1))
+      (node (ref D101) (pin 1))
+      (node (ref SW1) (pin 2))
+      (node (ref D61) (pin 1))
+      (node (ref D53) (pin 1)))
+    (net (code 33) (name "")
+      (node (ref D51) (pin 2))
+      (node (ref D52) (pin 1)))
+    (net (code 34) (name "")
+      (node (ref D50) (pin 2))
+      (node (ref D51) (pin 1)))
+    (net (code 35) (name "")
+      (node (ref D55) (pin 2))
+      (node (ref D56) (pin 1)))
+    (net (code 36) (name "")
+      (node (ref D55) (pin 1))
+      (node (ref D54) (pin 2)))
+    (net (code 37) (name "")
+      (node (ref D54) (pin 1))
+      (node (ref D53) (pin 2)))
+    (net (code 38) (name "")
+      (node (ref D61) (pin 2))
+      (node (ref D62) (pin 1)))
+    (net (code 39) (name "")
+      (node (ref D63) (pin 1))
+      (node (ref D62) (pin 2)))
+    (net (code 40) (name "")
+      (node (ref D64) (pin 1))
+      (node (ref D63) (pin 2)))
+    (net (code 41) (name "")
+      (node (ref D60) (pin 1))
+      (node (ref D59) (pin 2)))
+    (net (code 42) (name "")
+      (node (ref D59) (pin 1))
+      (node (ref D58) (pin 2)))
+    (net (code 43) (name "")
+      (node (ref D58) (pin 1))
+      (node (ref D57) (pin 2)))
+    (net (code 44) (name "")
+      (node (ref D42) (pin 1))
+      (node (ref D41) (pin 2)))
+    (net (code 45) (name "")
+      (node (ref D26) (pin 2))
+      (node (ref D27) (pin 1)))
+    (net (code 46) (name "")
+      (node (ref D28) (pin 1))
+      (node (ref D27) (pin 2)))
+    (net (code 47) (name "")
+      (node (ref D31) (pin 2))
+      (node (ref D32) (pin 1)))
+    (net (code 48) (name "")
+      (node (ref D30) (pin 2))
+      (node (ref D31) (pin 1)))
+    (net (code 49) (name "")
+      (node (ref D30) (pin 1))
+      (node (ref D29) (pin 2)))
+    (net (code 50) (name "")
+      (node (ref D21) (pin 2))
+      (node (ref D22) (pin 1)))
+    (net (code 51) (name "")
+      (node (ref D22) (pin 2))
+      (node (ref D23) (pin 1)))
+    (net (code 52) (name "")
+      (node (ref D23) (pin 2))
+      (node (ref D24) (pin 1)))
+    (net (code 53) (name "")
+      (node (ref D19) (pin 2))
+      (node (ref D20) (pin 1)))
+    (net (code 54) (name "")
+      (node (ref D18) (pin 2))
+      (node (ref D19) (pin 1)))
+    (net (code 55) (name "")
+      (node (ref D18) (pin 1))
+      (node (ref D17) (pin 2)))
+    (net (code 56) (name "")
+      (node (ref D50) (pin 1))
+      (node (ref D49) (pin 2)))
+    (net (code 57) (name "")
+      (node (ref D71) (pin 1))
+      (node (ref D70) (pin 2)))
+    (net (code 58) (name "")
+      (node (ref D69) (pin 2))
+      (node (ref D70) (pin 1)))
+    (net (code 59) (name "")
+      (node (ref D71) (pin 2))
+      (node (ref D72) (pin 1)))
+    (net (code 60) (name "")
+      (node (ref D65) (pin 2))
+      (node (ref D66) (pin 1)))
+    (net (code 61) (name "")
+      (node (ref D66) (pin 2))
+      (node (ref D67) (pin 1)))
+    (net (code 62) (name "")
+      (node (ref D68) (pin 1))
+      (node (ref D67) (pin 2)))
+    (net (code 63) (name "")
+      (node (ref D42) (pin 2))
+      (node (ref D43) (pin 1)))
+    (net (code 64) (name "")
+      (node (ref D43) (pin 2))
+      (node (ref D44) (pin 1)))
+    (net (code 65) (name "")
+      (node (ref D48) (pin 1))
+      (node (ref D47) (pin 2)))
+    (net (code 66) (name "")
+      (node (ref D47) (pin 1))
+      (node (ref D46) (pin 2)))
+    (net (code 67) (name "")
+      (node (ref D46) (pin 1))
+      (node (ref D45) (pin 2)))
+    (net (code 68) (name "")
+      (node (ref D38) (pin 1))
+      (node (ref D37) (pin 2)))
+    (net (code 69) (name "")
+      (node (ref D39) (pin 1))
+      (node (ref D38) (pin 2)))
+    (net (code 70) (name "")
+      (node (ref D39) (pin 2))
+      (node (ref D40) (pin 1)))
+    (net (code 71) (name "")
+      (node (ref D35) (pin 2))
+      (node (ref D36) (pin 1)))
+    (net (code 72) (name "")
+      (node (ref D34) (pin 2))
+      (node (ref D35) (pin 1)))
+    (net (code 73) (name "")
+      (node (ref D33) (pin 2))
+      (node (ref D34) (pin 1)))
+    (net (code 74) (name "")
+      (node (ref D113) (pin 2))
+      (node (ref D114) (pin 1)))
+    (net (code 75) (name "")
+      (node (ref D115) (pin 1))
+      (node (ref D114) (pin 2)))
+    (net (code 76) (name "")
+      (node (ref D115) (pin 2))
+      (node (ref D116) (pin 1)))
+    (net (code 77) (name "")
+      (node (ref D119) (pin 2))
+      (node (ref D120) (pin 1)))
+    (net (code 78) (name "")
+      (node (ref D118) (pin 2))
+      (node (ref D119) (pin 1)))
+    (net (code 79) (name "")
+      (node (ref D117) (pin 2))
+      (node (ref D118) (pin 1)))
+    (net (code 80) (name "")
+      (node (ref D109) (pin 2))
+      (node (ref D110) (pin 1)))
+    (net (code 81) (name "")
+      (node (ref D110) (pin 2))
+      (node (ref D111) (pin 1)))
+    (net (code 82) (name "")
+      (node (ref D111) (pin 2))
+      (node (ref D112) (pin 1)))
+    (net (code 83) (name "")
+      (node (ref D107) (pin 2))
+      (node (ref D108) (pin 1)))
+    (net (code 84) (name "")
+      (node (ref D107) (pin 1))
+      (node (ref D106) (pin 2)))
+    (net (code 85) (name "")
+      (node (ref D106) (pin 1))
+      (node (ref D105) (pin 2)))
+    (net (code 86) (name "")
+      (node (ref D122) (pin 2))
+      (node (ref D123) (pin 1)))
+    (net (code 87) (name "")
+      (node (ref D123) (pin 2))
+      (node (ref D124) (pin 1)))
+    (net (code 88) (name "")
+      (node (ref D128) (pin 1))
+      (node (ref D127) (pin 2)))
+    (net (code 89) (name "")
+      (node (ref D126) (pin 2))
+      (node (ref D127) (pin 1)))
+    (net (code 90) (name "")
+      (node (ref D126) (pin 1))
+      (node (ref D125) (pin 2)))
+    (net (code 91) (name "")
+      (node (ref D133) (pin 2))
+      (node (ref D134) (pin 1)))
+    (net (code 92) (name "")
+      (node (ref D134) (pin 2))
+      (node (ref D135) (pin 1)))
+    (net (code 93) (name "")
+      (node (ref D136) (pin 1))
+      (node (ref D135) (pin 2)))
+    (net (code 94) (name "")
+      (node (ref D132) (pin 1))
+      (node (ref D131) (pin 2)))
+    (net (code 95) (name "")
+      (node (ref D131) (pin 1))
+      (node (ref D130) (pin 2)))
+    (net (code 96) (name "")
+      (node (ref D130) (pin 1))
+      (node (ref D129) (pin 2)))
+    (net (code 97) (name "")
+      (node (ref D3) (pin 2))
+      (node (ref D4) (pin 1)))
+    (net (code 98) (name "")
+      (node (ref D7) (pin 2))
+      (node (ref D8) (pin 1)))
+    (net (code 99) (name "")
+      (node (ref D6) (pin 2))
+      (node (ref D7) (pin 1)))
+    (net (code 100) (name "")
+      (node (ref D6) (pin 1))
+      (node (ref D5) (pin 2)))
+    (net (code 101) (name "")
+      (node (ref D14) (pin 1))
+      (node (ref D13) (pin 2)))
+    (net (code 102) (name "")
+      (node (ref D14) (pin 2))
+      (node (ref D15) (pin 1)))
+    (net (code 103) (name "")
+      (node (ref D15) (pin 2))
+      (node (ref D16) (pin 1)))
+    (net (code 104) (name "")
+      (node (ref D11) (pin 2))
+      (node (ref D12) (pin 1)))
+    (net (code 105) (name "")
+      (node (ref D11) (pin 1))
+      (node (ref D10) (pin 2)))
+    (net (code 106) (name "")
+      (node (ref D9) (pin 2))
+      (node (ref D10) (pin 1)))
+    (net (code 107) (name "")
+      (node (ref D25) (pin 2))
+      (node (ref D26) (pin 1)))
+    (net (code 108) (name "")
+      (node (ref D141) (pin 2))
+      (node (ref D142) (pin 1)))
+    (net (code 109) (name "")
+      (node (ref D142) (pin 2))
+      (node (ref D143) (pin 1)))
+    (net (code 110) (name "")
+      (node (ref D143) (pin 2))
+      (node (ref D144) (pin 1)))
+    (net (code 111) (name "")
+      (node (ref D138) (pin 1))
+      (node (ref D137) (pin 2)))
+    (net (code 112) (name "")
+      (node (ref D139) (pin 1))
+      (node (ref D138) (pin 2)))
+    (net (code 113) (name "")
+      (node (ref D140) (pin 1))
+      (node (ref D139) (pin 2)))
+    (net (code 114) (name "")
+      (node (ref D1) (pin 2))
+      (node (ref D2) (pin 1)))
+    (net (code 115) (name "")
+      (node (ref D2) (pin 2))
+      (node (ref D3) (pin 1)))))
