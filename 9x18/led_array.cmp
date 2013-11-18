@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Fri 15 Nov 2013 12:30:31 PM PST
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Mon 18 Nov 2013 03:01:39 PM PST
 
 BeginCmp
 TimeStamp = /4FE3A010;
@@ -1138,7 +1138,7 @@ BeginCmp
 TimeStamp = /4FE3AABB;
 Reference = P1;
 ValeurCmp = CONN_2;
-IdModule  = DCJACK_2PIN;
+IdModule  = DCJACK_2PIN_HIGHCURRENT;
 EndCmp
 
 BeginCmp

@@ -3,7 +3,7 @@
   (general
     (links 194)
     (no_connects 194)
-    (area 61.328299 16.116299 175.501301 143.250921)
+    (area 60.809499 14.809499 175.190501 161.190501)
     (thickness 1.6002)
     (drawings 5)
     (tracks 0)
@@ -36,7 +36,7 @@
   )
 
   (setup
-    (last_trace_width 0.762)
+    (last_trace_width 1.27)
     (trace_clearance 0.254)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -61,7 +61,7 @@
     (pad_drill 0.8128)
     (pad_to_mask_clearance 0.254)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFFBF)
+    (visible_elements FFFFFF3F)
     (pcbplotparams
       (layerselection 284196865)
       (usegerberextensions true)
@@ -235,7 +235,7 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.254)
-    (trace_width 0.762)
+    (trace_width 1.27)
     (via_dia 0.889)
     (via_drill 0.635)
     (uvia_dia 0.508)
@@ -385,7 +385,7 @@
   )
 
   (module R5 (layer Front) (tedit 200000) (tstamp 4FE8C9BA)
-    (at 158.242 85.852 90)
+    (at 73.5 73 90)
     (descr "Resistance 5 pas")
     (tags R)
     (path /527052C6)
@@ -419,7 +419,7 @@
   )
 
   (module R5 (layer Front) (tedit 503EAB5B) (tstamp 503EAAC5)
-    (at 158.75 64.516 90)
+    (at 73.5 53 90)
     (descr "Resistance 5 pas")
     (tags R)
     (path /4FE3A482)
@@ -452,33 +452,8 @@
     )
   )
 
-  (module DCJACK_2PIN (layer Front) (tedit 4CFD9C4C) (tstamp 4FE8CA4C)
-    (at 161.41954 37.7063)
-    (path /4FE3AABB)
-    (fp_text reference P1 (at 7.39902 -7.39902) (layer F.SilkS)
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_text value CONN_2 (at 7.8994 6.79958) (layer F.SilkS) hide
-      (effects (font (thickness 0.3048)))
-    )
-    (fp_line (start 0 -2.70002) (end 0 -4.50088) (layer F.SilkS) (width 0.381))
-    (fp_line (start 0 -4.50088) (end 13.79982 -4.50088) (layer F.SilkS) (width 0.381))
-    (fp_line (start 13.79982 -4.50088) (end 13.79982 4.39928) (layer F.SilkS) (width 0.381))
-    (fp_line (start 13.79982 4.39928) (end 13.79982 4.50088) (layer F.SilkS) (width 0.381))
-    (fp_line (start 13.79982 4.50088) (end 0 4.50088) (layer F.SilkS) (width 0.381))
-    (fp_line (start 0 4.50088) (end 0 2.70002) (layer F.SilkS) (width 0.381))
-    (pad 1 thru_hole circle (at 0 0) (size 5.08 5.08) (drill 2.99974)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 1 /15V)
-    )
-    (pad 2 thru_hole circle (at 5.99948 0) (size 4.59994 4.59994) (drill 2.60096)
-      (layers *.Cu *.Mask F.SilkS)
-      (net 2 GND)
-    )
-  )
-
   (module 1pin (layer Front) (tedit 503FB09D) (tstamp 4FE8E093)
-    (at 65.23482 155.39974)
+    (at 66 156)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -495,7 +470,7 @@
   )
 
   (module 1pin (layer Front) (tedit 503FB07F) (tstamp 4FE8DE40)
-    (at 171.69892 19.92376)
+    (at 170 20)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -512,7 +487,7 @@
   )
 
   (module 1pin (layer Front) (tedit 503FB093) (tstamp 4FE8DE28)
-    (at 171.64558 155.39974)
+    (at 170 156)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -529,7 +504,7 @@
   )
 
   (module 1pin (layer Front) (tedit 503FB06D) (tstamp 4FE8DE38)
-    (at 65.13068 19.92376)
+    (at 66 20)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (path 1pin)
@@ -545,13 +520,13 @@
     )
   )
 
-  (module slide_switch (layer Front) (tedit 503FB0AE) (tstamp 503EAA1C)
-    (at 170.18 56.7563 90)
+  (module slide_switch (layer Front) (tedit 52896659) (tstamp 503EAA1C)
+    (at 170 70 90)
     (path /503E9EE5)
     (fp_text reference SW1 (at -11.8237 0.127 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value SWITCH_INV (at 0.8763 2.794 90) (layer F.SilkS) hide
+    (fp_text value SWITCH_INV (at 0.635 2.54 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -9.652 -5.08) (end 9.652 -5.08) (layer F.SilkS) (width 0.381))
@@ -573,7 +548,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9E5)
-    (at 86.32952 19.8501)
+    (at 86 20)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A010)
@@ -609,7 +584,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA27)
-    (at 110.2614 75.692)
+    (at 110 76)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A213)
@@ -645,7 +620,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA29)
-    (at 118.237 75.692)
+    (at 118 76)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A212)
@@ -681,7 +656,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA1B)
-    (at 126.21514 75.692)
+    (at 126 76)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A211)
@@ -717,7 +692,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA1D)
-    (at 134.19074 75.692)
+    (at 134 76)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A210)
@@ -753,7 +728,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA1F)
-    (at 142.14602 75.692)
+    (at 142 76)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704909)
@@ -789,7 +764,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EB18C) (tstamp 4FE8CA21)
-    (at 150.14448 75.692)
+    (at 150 76)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5270490F)
@@ -825,7 +800,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA23)
-    (at 94.30766 75.692)
+    (at 94 76)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048FD)
@@ -861,7 +836,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA25)
-    (at 102.28326 75.692)
+    (at 102 76)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704903)
@@ -897,7 +872,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA3F)
-    (at 102.28326 67.7164)
+    (at 102 68)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A216)
@@ -933,7 +908,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA3D)
-    (at 110.2614 67.7164)
+    (at 110 68)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A217)
@@ -969,7 +944,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA3B)
-    (at 118.237 67.7164)
+    (at 118 68)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704939)
@@ -1005,7 +980,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA39)
-    (at 126.21514 67.7164)
+    (at 126 68)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5270493F)
@@ -1041,7 +1016,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA31)
-    (at 134.19074 67.7164)
+    (at 134 68)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A20C)
@@ -1077,7 +1052,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA33)
-    (at 142.16888 67.7164)
+    (at 142 68)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A20D)
@@ -1113,7 +1088,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA35)
-    (at 150.14448 67.7164)
+    (at 150 68)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A20E)
@@ -1149,7 +1124,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA2B)
-    (at 94.30766 67.7164)
+    (at 94 68)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A215)
@@ -1185,7 +1160,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA49)
-    (at 102.28326 59.43854)
+    (at 102 60)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704945)
@@ -1221,7 +1196,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9DB)
-    (at 110.2614 59.43854)
+    (at 110 60)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A21B)
@@ -1257,7 +1232,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9DD)
-    (at 118.237 59.43854)
+    (at 118 60)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A21A)
@@ -1293,7 +1268,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9DF)
-    (at 126.21514 59.43854)
+    (at 126 60)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A219)
@@ -1329,7 +1304,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9E1)
-    (at 134.19074 59.43854)
+    (at 134 60)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A218)
@@ -1365,7 +1340,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA2F)
-    (at 142.16888 59.43854)
+    (at 142 60)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5270492D)
@@ -1401,7 +1376,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8D7B5)
-    (at 150.14448 59.43854)
+    (at 150 60)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704933)
@@ -1437,7 +1412,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8D727)
-    (at 94.30766 59.43854)
+    (at 94 60)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5270494B)
@@ -1473,7 +1448,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8D548)
-    (at 94.30766 51.76266)
+    (at 94 52)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1ED)
@@ -1509,7 +1484,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA0F)
-    (at 102.28326 51.76266)
+    (at 102 52)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1EE)
@@ -1545,7 +1520,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA41)
-    (at 118.237 51.76266)
+    (at 118 52)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704957)
@@ -1581,7 +1556,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EB176) (tstamp 4FE8CA11)
-    (at 110.2614 51.76266)
+    (at 110 52)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1EF)
@@ -1617,7 +1592,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EB170) (tstamp 4FE8CA43)
-    (at 126.21514 51.76266)
+    (at 126 52)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704951)
@@ -1653,7 +1628,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA45)
-    (at 134.19074 51.76266)
+    (at 134 52)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1F3)
@@ -1689,7 +1664,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA47)
-    (at 142.16888 51.76266)
+    (at 142 52)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1F2)
@@ -1725,7 +1700,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA09)
-    (at 150.14448 51.76266)
+    (at 150 52)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1F1)
@@ -1761,7 +1736,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA0B)
-    (at 86.32952 51.76266)
+    (at 86 52)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1EC)
@@ -1797,7 +1772,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA19)
-    (at 86.32952 59.43854)
+    (at 86 60)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1F0)
@@ -1833,7 +1808,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA05)
-    (at 86.32952 67.7164)
+    (at 86 68)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A214)
@@ -1869,7 +1844,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8D4A8)
-    (at 86.32952 75.692)
+    (at 86 76)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A20F)
@@ -1905,7 +1880,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA13)
-    (at 150.14448 43.78452)
+    (at 150 44)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048DF)
@@ -1941,7 +1916,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9C9)
-    (at 94.30766 43.78452)
+    (at 94 44)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048CD)
@@ -1977,7 +1952,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9C7)
-    (at 102.28326 43.78452)
+    (at 102 44)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048D3)
@@ -2013,7 +1988,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9C5)
-    (at 110.2614 43.78452)
+    (at 110 44)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1F4)
@@ -2049,7 +2024,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9C3)
-    (at 118.237 43.78452)
+    (at 118 44)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1F5)
@@ -2085,7 +2060,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA07)
-    (at 126.21514 43.78452)
+    (at 126 44)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1F6)
@@ -2121,7 +2096,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA17)
-    (at 134.19074 43.78452)
+    (at 134 44)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1F7)
@@ -2157,7 +2132,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA15)
-    (at 142.16888 43.78452)
+    (at 142 44)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048D9)
@@ -2193,7 +2168,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9C1)
-    (at 86.32952 43.78452)
+    (at 86 44)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1F8)
@@ -2229,7 +2204,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9F5)
-    (at 142.16888 35.80638)
+    (at 142 36)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1FA)
@@ -2265,7 +2240,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9BF)
-    (at 150.14448 35.80638)
+    (at 150 36)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1F9)
@@ -2301,7 +2276,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9BD)
-    (at 94.30766 35.80638)
+    (at 94 36)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1D6)
@@ -2337,7 +2312,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9CB)
-    (at 102.28326 35.80638)
+    (at 102 36)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1D7)
@@ -2373,7 +2348,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9CD)
-    (at 110.2614 35.80638)
+    (at 110 36)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1D8)
@@ -2409,7 +2384,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9CF)
-    (at 118.237 35.80638)
+    (at 118 36)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048EB)
@@ -2445,7 +2420,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9D1)
-    (at 126.21514 35.80638)
+    (at 126 36)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048E5)
@@ -2481,7 +2456,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9D3)
-    (at 134.19074 35.80638)
+    (at 134 36)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1FB)
@@ -2517,7 +2492,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9D7)
-    (at 150.14448 27.82824)
+    (at 150 28)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048F1)
@@ -2553,7 +2528,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9D9)
-    (at 142.16888 27.82824)
+    (at 142 28)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048F7)
@@ -2589,7 +2564,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9FB)
-    (at 134.19074 27.82824)
+    (at 134 28)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1D9)
@@ -2625,7 +2600,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9F9)
-    (at 126.21514 27.82824)
+    (at 126 28)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1DA)
@@ -2661,7 +2636,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9F7)
-    (at 118.237 27.82824)
+    (at 118 28)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1DB)
@@ -2697,7 +2672,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9E3)
-    (at 110.2614 27.82824)
+    (at 110 28)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1DC)
@@ -2732,8 +2707,8 @@
     )
   )
 
-  (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9FD)
-    (at 102.28326 27.82824)
+  (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5289598D)
+    (at 102 28)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048B5)
@@ -2768,8 +2743,8 @@
     )
   )
 
-  (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9FF)
-    (at 94.30766 27.82824)
+  (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52895921)
+    (at 94 28)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048BB)
@@ -2804,8 +2779,8 @@
     )
   )
 
-  (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA01)
-    (at 86.32952 27.82824)
+  (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52895950)
+    (at 86 28)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1C9)
@@ -2841,7 +2816,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8CA03)
-    (at 150.14448 19.8501)
+    (at 150 20)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1CA)
@@ -2877,7 +2852,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9ED)
-    (at 142.16888 19.8501)
+    (at 142 20)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1CB)
@@ -2913,7 +2888,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9EF)
-    (at 134.19074 19.8501)
+    (at 134 20)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1CC)
@@ -2949,7 +2924,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9F1)
-    (at 126.21514 19.8501)
+    (at 126 20)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048C1)
@@ -2985,7 +2960,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9F3)
-    (at 118.237 19.8501)
+    (at 118 20)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /527048C7)
@@ -3021,7 +2996,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9EB)
-    (at 110.2614 19.8501)
+    (at 110 20)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A16C)
@@ -3057,7 +3032,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EB183) (tstamp 52855715)
-    (at 102.28326 19.8501)
+    (at 102 20)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A166)
@@ -3093,7 +3068,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8C9E7)
-    (at 94.30766 19.8501)
+    (at 94 20)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A156)
@@ -3129,7 +3104,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 4FE8D279)
-    (at 86.32952 35.80638)
+    (at 86 36)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1D5)
@@ -3165,7 +3140,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527053D1)
-    (at 86.32952 83.67014)
+    (at 86 84)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1FC)
@@ -3201,7 +3176,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527053E0)
-    (at 94.30766 83.67014)
+    (at 94 84)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1FD)
@@ -3237,7 +3212,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527053EF)
-    (at 102.28326 83.67014)
+    (at 102 84)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1FE)
@@ -3273,7 +3248,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527053FE)
-    (at 110.2614 83.67014)
+    (at 110 84)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A1FF)
@@ -3309,7 +3284,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5270540D)
-    (at 118.237 83.67014)
+    (at 118 84)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704927)
@@ -3345,7 +3320,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5270541C)
-    (at 126.21514 83.67014)
+    (at 126 84)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704921)
@@ -3381,7 +3356,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5270542B)
-    (at 134.19074 83.67014)
+    (at 134 84)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A203)
@@ -3417,7 +3392,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5270543A)
-    (at 142.14602 83.67014)
+    (at 142 84)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A202)
@@ -3453,7 +3428,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705449)
-    (at 150.14448 83.67014)
+    (at 150 84)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A201)
@@ -3489,7 +3464,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705458)
-    (at 86.32952 91.64828)
+    (at 86 92)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A200)
@@ -3525,7 +3500,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705467)
-    (at 94.30766 91.64828)
+    (at 94 92)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5270491B)
@@ -3561,7 +3536,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705476)
-    (at 102.28326 91.64828)
+    (at 102 92)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704915)
@@ -3597,7 +3572,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705485)
-    (at 110.2614 91.64828)
+    (at 110 92)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A20B)
@@ -3633,7 +3608,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705494)
-    (at 118.237 91.64828)
+    (at 118 92)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A20A)
@@ -3669,7 +3644,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527054A3)
-    (at 126.21514 91.64828)
+    (at 126 92)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A209)
@@ -3705,7 +3680,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527054B2)
-    (at 134.19074 91.64828)
+    (at 134 92)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A208)
@@ -3741,7 +3716,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527054C1)
-    (at 142.14602 91.64828)
+    (at 142 92)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5270487F)
@@ -3777,7 +3752,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527054D0)
-    (at 150.14448 91.64828)
+    (at 150 92)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704879)
@@ -3813,7 +3788,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527054DF)
-    (at 86.32952 99.62642)
+    (at 86 100)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A204)
@@ -3849,7 +3824,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527054EE)
-    (at 94.30766 99.62642)
+    (at 94 100)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A205)
@@ -3885,7 +3860,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527054FD)
-    (at 102.28326 99.62642)
+    (at 102 100)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A206)
@@ -3921,7 +3896,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5270550C)
-    (at 110.2614 99.62642)
+    (at 110 100)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A207)
@@ -3957,7 +3932,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5270551B)
-    (at 118.237 99.62642)
+    (at 118 100)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704873)
@@ -3993,7 +3968,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5270552A)
-    (at 126.21514 99.62642)
+    (at 126 100)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5270486D)
@@ -4029,7 +4004,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705539)
-    (at 134.19074 99.62642)
+    (at 134 100)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A23C)
@@ -4065,7 +4040,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705548)
-    (at 142.14602 99.62642)
+    (at 142 100)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A23D)
@@ -4101,7 +4076,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705557)
-    (at 150.14448 99.62642)
+    (at 150 100)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A23E)
@@ -4137,7 +4112,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705566)
-    (at 86.32952 107.60456)
+    (at 86 108)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A23F)
@@ -4173,7 +4148,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705575)
-    (at 94.30766 107.60456)
+    (at 94 108)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704897)
@@ -4209,7 +4184,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705584)
-    (at 102.28326 107.60456)
+    (at 102 108)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704891)
@@ -4245,7 +4220,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705593)
-    (at 110.2614 107.60456)
+    (at 110 108)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A21C)
@@ -4281,7 +4256,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527055A2)
-    (at 118.237 107.60456)
+    (at 118 108)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A21D)
@@ -4317,7 +4292,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527055B1)
-    (at 126.21514 107.60456)
+    (at 126 108)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A21E)
@@ -4353,7 +4328,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527055C0)
-    (at 134.19074 107.60456)
+    (at 134 108)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /4FE3A21F)
@@ -4389,7 +4364,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527055CF)
-    (at 142.14602 107.60456)
+    (at 142 108)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5270488B)
@@ -4425,7 +4400,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527055DE)
-    (at 150.14448 107.60456)
+    (at 150 108)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52704885)
@@ -4461,7 +4436,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527055ED)
-    (at 86.32952 115.5827)
+    (at 86 116)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286832B)
@@ -4497,7 +4472,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527055FC)
-    (at 94.30766 115.5827)
+    (at 94 116)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868325)
@@ -4533,7 +4508,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5270560B)
-    (at 102.28326 115.5827)
+    (at 102 116)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286831F)
@@ -4569,7 +4544,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5270561A)
-    (at 110.2614 115.5827)
+    (at 110 116)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868319)
@@ -4605,7 +4580,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705629)
-    (at 118.237 115.5827)
+    (at 118 116)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868421)
@@ -4641,7 +4616,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705638)
-    (at 126.21514 115.5827)
+    (at 126 116)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868427)
@@ -4677,7 +4652,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705647)
-    (at 134.19074 115.5827)
+    (at 134 116)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286835B)
@@ -4713,7 +4688,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705656)
-    (at 142.14602 115.5827)
+    (at 142 116)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868355)
@@ -4749,7 +4724,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705665)
-    (at 150.14448 115.5827)
+    (at 150 116)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286834F)
@@ -4785,7 +4760,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705674)
-    (at 86.32952 123.56084)
+    (at 86 124)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868349)
@@ -4821,7 +4796,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705683)
-    (at 94.30766 123.56084)
+    (at 94 124)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683F1)
@@ -4857,7 +4832,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705692)
-    (at 102.28326 123.56084)
+    (at 102 124)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683F7)
@@ -4893,7 +4868,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527056A1)
-    (at 110.2614 123.56084)
+    (at 110 124)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868331)
@@ -4929,7 +4904,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527056B0)
-    (at 118.237 123.56084)
+    (at 118 124)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868337)
@@ -4965,7 +4940,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527056BF)
-    (at 126.21514 123.56084)
+    (at 126 124)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286833D)
@@ -5037,7 +5012,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527056DD)
-    (at 142.14602 123.56084)
+    (at 142 124)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683FD)
@@ -5073,7 +5048,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527056EC)
-    (at 150.14448 123.56084)
+    (at 150 124)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868403)
@@ -5109,7 +5084,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527056FB)
-    (at 86.32952 131.53898)
+    (at 86 132)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683BB)
@@ -5145,7 +5120,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5270570A)
-    (at 94.30766 131.53898)
+    (at 94 132)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683B5)
@@ -5180,8 +5155,8 @@
     )
   )
 
-  (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52857407)
-    (at 102.28326 131.53898)
+  (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 5289605C)
+    (at 102 132)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683AF)
@@ -5217,7 +5192,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 528573F7)
-    (at 110.2614 131.53898)
+    (at 110 132)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683A9)
@@ -5253,7 +5228,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 528573E7)
-    (at 118.237 131.53898)
+    (at 118 132)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286841B)
@@ -5289,7 +5264,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705746)
-    (at 126.21514 131.53898)
+    (at 126 132)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868415)
@@ -5325,7 +5300,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705755)
-    (at 134.19074 131.53898)
+    (at 134 132)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868391)
@@ -5361,7 +5336,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705764)
-    (at 142.14602 131.53898)
+    (at 142 132)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868397)
@@ -5397,7 +5372,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705773)
-    (at 150.14448 131.53898)
+    (at 150 132)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286839D)
@@ -5433,7 +5408,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705782)
-    (at 86.32952 139.51712)
+    (at 86 140)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683A3)
@@ -5469,7 +5444,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52705791)
-    (at 94.30766 139.51712)
+    (at 94 140)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286840F)
@@ -5505,7 +5480,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527057A0)
-    (at 102.28326 139.51712)
+    (at 102 140)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868409)
@@ -5541,7 +5516,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527057AF)
-    (at 110.2614 139.51712)
+    (at 110 140)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868361)
@@ -5577,7 +5552,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 52855CDC)
-    (at 118.237 139.51712)
+    (at 118 140)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868367)
@@ -5613,7 +5588,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527057CD)
-    (at 126.21514 139.51712)
+    (at 126 140)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286836D)
@@ -5649,7 +5624,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527057DC)
-    (at 134.19074 139.51712)
+    (at 134 140)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868373)
@@ -5685,7 +5660,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527057EB)
-    (at 142.14602 139.51712)
+    (at 142 140)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683D3)
@@ -5721,7 +5696,7 @@
   )
 
   (module "CUSTOM2 LED-5MM" (layer Front) (tedit 503EAF33) (tstamp 527057FA)
-    (at 150.14448 139.51712)
+    (at 150 140)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683CD)
@@ -5757,7 +5732,7 @@
   )
 
   (module R5 (layer Front) (tedit 200000) (tstamp 52705807)
-    (at 158.496 106.934 90)
+    (at 73.5 93 90)
     (descr "Resistance 5 pas")
     (tags R)
     (path /52868434)
@@ -5791,7 +5766,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 52868990) (tstamp 52868DAD)
-    (at 86.32952 147.49526)
+    (at 86 148)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286838B)
@@ -5827,7 +5802,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 528689A0) (tstamp 528691FC)
-    (at 94.30766 147.49526)
+    (at 94 148)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868385)
@@ -5863,7 +5838,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 5286899B) (tstamp 528691EC)
-    (at 102.28326 147.49526)
+    (at 102 148)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286837F)
@@ -5899,7 +5874,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 528689B0) (tstamp 52868DDA)
-    (at 110.2614 147.49526)
+    (at 110 148)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868379)
@@ -5935,7 +5910,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 528689C4) (tstamp 52868DE9)
-    (at 118.237 147.49526)
+    (at 118 148)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683C7)
@@ -5971,7 +5946,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 528689E6) (tstamp 52868DF8)
-    (at 126.21514 147.49526)
+    (at 126 148)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683C1)
@@ -6007,7 +5982,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 52868A05) (tstamp 52868E07)
-    (at 134.19074 147.49526)
+    (at 134 148)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528682FB)
@@ -6043,7 +6018,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 52868A0B) (tstamp 52868E16)
-    (at 142.14602 147.49526)
+    (at 142 148)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528682F5)
@@ -6079,7 +6054,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 52868A20) (tstamp 52868E25)
-    (at 150.14448 147.49526)
+    (at 150 148)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528682EF)
@@ -6115,7 +6090,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 52868976) (tstamp 52868E34)
-    (at 86.32952 155.4734)
+    (at 86 156)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528682E9)
@@ -6151,7 +6126,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 5286897F) (tstamp 52868E43)
-    (at 94.30766 155.4734)
+    (at 94 156)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683EB)
@@ -6187,7 +6162,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 5286898A) (tstamp 52868E52)
-    (at 102.28326 155.4734)
+    (at 102 156)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683E5)
@@ -6223,7 +6198,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 528689BC) (tstamp 52868E61)
-    (at 110.2614 155.4734)
+    (at 110 156)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868313)
@@ -6259,7 +6234,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 528689D7) (tstamp 52868E70)
-    (at 118.237 155.4734)
+    (at 118 156)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /5286830D)
@@ -6295,7 +6270,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 528689F1) (tstamp 52868E7F)
-    (at 126.21514 155.4734)
+    (at 126 156)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868307)
@@ -6331,7 +6306,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 528689F9) (tstamp 52868E8E)
-    (at 134.19074 155.4734)
+    (at 134 156)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /52868301)
@@ -6367,7 +6342,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 52868A13) (tstamp 52868E9D)
-    (at 142.14602 155.4734)
+    (at 142 156)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683DF)
@@ -6403,7 +6378,7 @@
   )
 
   (module "CUSTOM LED-5MM" (layer Front) (tedit 52868A1A) (tstamp 52868EAC)
-    (at 150.14448 155.4734)
+    (at 150 156)
     (descr "LED 5mm - Lead pitch 100mil (2,54mm)")
     (tags "LED led 5mm 5MM 100mil 2,54mm")
     (path /528683D9)
@@ -6438,12 +6413,44 @@
     )
   )
 
-  (gr_text "IO Rodeo\n9x18 LED Array v1.1" (at 68.834 73.914 90) (layer F.SilkS)
+  (module DCJACK_2PIN_HIGHCURRENT (layer Front) (tedit 528A9CB7) (tstamp 528AA58E)
+    (at 175.006 40 270)
+    (path /4FE3AABB)
+    (fp_text reference P1 (at -8.89 7.62 360) (layer F.SilkS)
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_text value CONN_2 (at 8.89 6.985 360) (layer F.SilkS) hide
+      (effects (font (thickness 0.3048)))
+    )
+    (fp_line (start -6.985 0) (end 6.985 0) (layer F.SilkS) (width 0.381))
+    (fp_line (start 6.985 0) (end 6.985 14.605) (layer F.SilkS) (width 0.381))
+    (fp_line (start 6.985 14.605) (end -6.985 14.605) (layer F.SilkS) (width 0.381))
+    (fp_line (start -6.985 14.605) (end -6.985 0) (layer F.SilkS) (width 0.381))
+    (pad "" thru_hole circle (at 0 2.9972 270) (size 1.9304 1.9304) (drill 1.6002)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad 2 thru_hole circle (at 0 5.9944 270) (size 3.556 3.556) (drill 2.6924)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 2 GND)
+    )
+    (pad 1 thru_hole circle (at 0 11.9888 270) (size 4.064 4.064) (drill 3.1496)
+      (layers *.Cu *.Mask F.SilkS)
+      (net 1 /15V)
+    )
+    (pad "" thru_hole circle (at -4.4958 5.0038 270) (size 3.556 3.556) (drill 2.6924)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+    (pad "" thru_hole circle (at 4.4958 5.0038 270) (size 3.556 3.556) (drill 2.6924)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (gr_text "IO Rodeo\n9x18 LED Array v1.1" (at 162.5 117.475 90) (layer F.SilkS)
     (effects (font (size 2.032 1.524) (thickness 0.3048)))
   )
-  (gr_line (start 61.5188 159.0167) (end 61.5188 16.3068) (angle 90) (layer Edge.Cuts) (width 0.381))
-  (gr_line (start 175.3108 159.0167) (end 61.5188 159.0167) (angle 90) (layer Edge.Cuts) (width 0.381))
-  (gr_line (start 175.3108 16.3068) (end 175.3108 159.0167) (angle 90) (layer Edge.Cuts) (width 0.381))
-  (gr_line (start 61.5188 16.3068) (end 175.3108 16.3068) (angle 90) (layer Edge.Cuts) (width 0.381))
+  (gr_line (start 61 161) (end 61 15) (angle 90) (layer Edge.Cuts) (width 0.381) (tstamp 528961C2))
+  (gr_line (start 175 161) (end 61 161) (angle 90) (layer Edge.Cuts) (width 0.381) (tstamp 52896272))
+  (gr_line (start 175 15) (end 175 161) (angle 90) (layer Edge.Cuts) (width 0.381))
+  (gr_line (start 61 15) (end 175 15) (angle 90) (layer Edge.Cuts) (width 0.381))
 
 )
