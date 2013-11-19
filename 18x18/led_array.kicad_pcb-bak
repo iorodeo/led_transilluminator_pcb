@@ -3,7 +3,7 @@
   (general
     (links 386)
     (no_connects 0)
-    (area 60.809499 14.809499 247.190501 161.190501)
+    (area 60.809499 3.480163 263.107717 161.190501)
     (thickness 1.6002)
     (drawings 7)
     (tracks 451)
@@ -61,7 +61,7 @@
     (pad_drill 0.8128)
     (pad_to_mask_clearance 0.254)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFFBF)
+    (visible_elements FFFFFF3F)
     (pcbplotparams
       (layerselection 284196865)
       (usegerberextensions true)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerner_v1p1/))
+      (outputdirectory /home/jo/repos/led_transilluminator_pcb/18x18/gerber/))
   )
 
   (net 0 "")
@@ -12623,13 +12623,13 @@
     )
   )
 
-  (module DCJACK_2PIN_HIGHCURRENT (layer Front) (tedit 4E2C7EA4) (tstamp 528A76C4)
+  (module DCJACK_2PIN_HIGHCURRENT (layer Front) (tedit 528A9D1D) (tstamp 528A76C4)
     (at 247.015 40 270)
     (path /4FE3AABB)
     (fp_text reference P1 (at -8.89 7.62 360) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value CONN_2 (at 8.89 6.985 360) (layer F.SilkS)
+    (fp_text value CONN_2 (at 8.89 6.985 360) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -6.985 0) (end 6.985 0) (layer F.SilkS) (width 0.381))
