@@ -1,7 +1,7 @@
-Part      Description                    Vendor            PN               QTY
-----------------------------------------------------------------------------------
-D1-72     Blue LED 470nm                 Superbrightleds   RL5-B12120       72
-P1        jack, DC, PWR, male, 2.1 mm    Jameco            137673            1
-SW1       Slide switch                   Digikey           CKC5102-ND        1
-R1        5.6 ohm resistor               Digikey           P5.6BACT-ND       1
+Part      Qty     Description                                Vendor               Part #
+-------------------------------------------------------------------------------------------------
+D1-324    324     470 nm 5mm LEDs                            Superbrightleds      RL5-B12120
+SW1       1       Switch                                     Digikey              CKC5102-ND
+P1        1       jack, DC, PWR, male, 2.1 mm                Digikey              CP-063AH-ND
+R1-6      6       Resistor 8.2 ohm 1/2W 5%                   Digikey              8.2H-ND 
 
