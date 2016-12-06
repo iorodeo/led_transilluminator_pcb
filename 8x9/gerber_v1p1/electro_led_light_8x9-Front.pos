@@ -1,0 +1,82 @@
+### Module positions - created on Tue 06 Dec 2016 12:57:51 PM PST ###
+### Printed by Pcbnew version pcbnew (2013-jul-07)-stable
+## Unit = inches, Angle = deg.
+## Side : Front
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+D1       LED              CUSTOM2 LED-5MM     3.3988    -3.5515       0.0    Front
+D2       LED              CUSTOM2 LED-5MM     3.7129    -3.5515       0.0    Front
+D3       LED              CUSTOM2 LED-5MM     4.0269    -3.5515       0.0    Front
+D4       LED              CUSTOM2 LED-5MM     4.3410    -3.5515       0.0    Front
+D5       LED              CUSTOM2 LED-5MM     4.6550    -3.5515       0.0    Front
+D6       LED              CUSTOM2 LED-5MM     4.9691    -3.5515       0.0    Front
+D7       LED              CUSTOM2 LED-5MM     5.2831    -3.5515       0.0    Front
+D8       LED              CUSTOM2 LED-5MM     5.5972    -3.5515       0.0    Front
+D9       LED              CUSTOM2 LED-5MM     5.9112    -3.5515       0.0    Front
+D10      LED              CUSTOM2 LED-5MM     3.3988    -3.8656       0.0    Front
+D11      LED              CUSTOM2 LED-5MM     3.7129    -3.8656       0.0    Front
+D12      LED              CUSTOM2 LED-5MM     4.0269    -3.8656       0.0    Front
+D13      LED              CUSTOM2 LED-5MM     4.3410    -3.8656       0.0    Front
+D14      LED              CUSTOM2 LED-5MM     4.6550    -3.8656       0.0    Front
+D15      LED              CUSTOM2 LED-5MM     4.9691    -3.8656       0.0    Front
+D16      LED              CUSTOM2 LED-5MM     5.2831    -3.8656       0.0    Front
+D17      LED              CUSTOM2 LED-5MM     5.5972    -3.8656       0.0    Front
+D18      LED              CUSTOM2 LED-5MM     5.9112    -3.8656       0.0    Front
+D19      LED              CUSTOM2 LED-5MM     3.3988    -4.1797       0.0    Front
+D20      LED              CUSTOM2 LED-5MM     3.7129    -4.1797       0.0    Front
+D21      LED              CUSTOM2 LED-5MM     4.0269    -4.1797       0.0    Front
+D22      LED              CUSTOM2 LED-5MM     4.3410    -4.1797       0.0    Front
+D23      LED              CUSTOM2 LED-5MM     4.6550    -4.1797       0.0    Front
+D24      LED              CUSTOM2 LED-5MM     4.9691    -4.1797       0.0    Front
+D25      LED              CUSTOM2 LED-5MM     5.2831    -4.1797       0.0    Front
+D26      LED              CUSTOM2 LED-5MM     5.5972    -4.1797       0.0    Front
+D27      LED              CUSTOM2 LED-5MM     5.9112    -4.1797       0.0    Front
+D28      LED              CUSTOM2 LED-5MM     3.3988    -4.4938       0.0    Front
+D29      LED              CUSTOM2 LED-5MM     3.7129    -4.4938       0.0    Front
+D30      LED              CUSTOM2 LED-5MM     4.0269    -4.4938       0.0    Front
+D31      LED              CUSTOM2 LED-5MM     4.3410    -4.4938       0.0    Front
+D32      LED              CUSTOM2 LED-5MM     4.6550    -4.4938       0.0    Front
+D33      LED              CUSTOM2 LED-5MM     4.9691    -4.4938       0.0    Front
+D34      LED              CUSTOM2 LED-5MM     5.2831    -4.4938       0.0    Front
+D35      LED              CUSTOM2 LED-5MM     5.5972    -4.4938       0.0    Front
+D36      LED              CUSTOM2 LED-5MM     5.9112    -4.4938       0.0    Front
+D37      LED              CUSTOM2 LED-5MM     3.3988    -4.8079       0.0    Front
+D38      LED              CUSTOM2 LED-5MM     3.7129    -4.8079       0.0    Front
+D39      LED              CUSTOM2 LED-5MM     4.0269    -4.8079       0.0    Front
+D40      LED              CUSTOM2 LED-5MM     4.3410    -4.8079       0.0    Front
+D41      LED              CUSTOM2 LED-5MM     4.6550    -4.8079       0.0    Front
+D42      LED              CUSTOM2 LED-5MM     4.9691    -4.8079       0.0    Front
+D43      LED              CUSTOM2 LED-5MM     5.2831    -4.8079       0.0    Front
+D44      LED              CUSTOM2 LED-5MM     5.5972    -4.8079       0.0    Front
+D45      LED              CUSTOM2 LED-5MM     5.9112    -4.8079       0.0    Front
+D46      LED              CUSTOM2 LED-5MM     3.3988    -5.1101       0.0    Front
+D47      LED              CUSTOM2 LED-5MM     3.7129    -5.1101       0.0    Front
+D48      LED              CUSTOM2 LED-5MM     4.0269    -5.1101       0.0    Front
+D49      LED              CUSTOM2 LED-5MM     4.3410    -5.1101       0.0    Front
+D50      LED              CUSTOM2 LED-5MM     4.6550    -5.1101       0.0    Front
+D51      LED              CUSTOM2 LED-5MM     4.9691    -5.1101       0.0    Front
+D52      LED              CUSTOM2 LED-5MM     5.2831    -5.1101       0.0    Front
+D53      LED              CUSTOM2 LED-5MM     5.5972    -5.1101       0.0    Front
+D54      LED              CUSTOM2 LED-5MM     5.9112    -5.1101       0.0    Front
+D55      LED              CUSTOM2 LED-5MM     3.3988    -5.4360       0.0    Front
+D56      LED              CUSTOM2 LED-5MM     3.7129    -5.4360       0.0    Front
+D57      LED              CUSTOM2 LED-5MM     4.0269    -5.4360       0.0    Front
+D58      LED              CUSTOM2 LED-5MM     4.3410    -5.4360       0.0    Front
+D59      LED              CUSTOM2 LED-5MM     4.6550    -5.4360       0.0    Front
+D60      LED              CUSTOM2 LED-5MM     4.9691    -5.4360       0.0    Front
+D61      LED              CUSTOM2 LED-5MM     5.2831    -5.4360       0.0    Front
+D62      LED              CUSTOM2 LED-5MM     5.5972    -5.4360       0.0    Front
+D63      LED              CUSTOM2 LED-5MM     5.9112    -5.4360       0.0    Front
+D64      LED              CUSTOM2 LED-5MM     3.3988    -5.7500       0.0    Front
+D65      LED              CUSTOM2 LED-5MM     3.7129    -5.7500       0.0    Front
+D66      LED              CUSTOM2 LED-5MM     4.0269    -5.7500       0.0    Front
+D67      LED              CUSTOM2 LED-5MM     4.3410    -5.7500       0.0    Front
+D68      LED              CUSTOM2 LED-5MM     4.6550    -5.7500       0.0    Front
+D69      LED              CUSTOM2 LED-5MM     4.9691    -5.7500       0.0    Front
+D70      LED              CUSTOM2 LED-5MM     5.2831    -5.7500       0.0    Front
+D71      LED              CUSTOM2 LED-5MM     5.5963    -5.7500       0.0    Front
+D72      LED              CUSTOM2 LED-5MM     5.9112    -5.7500       0.0    Front
+P1       CONN_2           DCJACK_2PIN         6.3551    -4.2545       0.0    Front
+R1       R                R5                  6.2150    -4.8400      90.0    Front
+R2       R                R5                  6.2150    -5.5100      90.0    Front
+SW1      SWITCH_INV       slide_switch        6.7000    -5.0045      90.0    Front
+## End
